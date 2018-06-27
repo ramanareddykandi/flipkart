@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="none">
+  <listeners>
+    <listener class-name="com.org.flipkart.customListners.ListenerinSelenium"/>
+  </listeners>
+  <test name="Test(failed)" parallel="none">
+    <classes>
+      <class name="com.org.flipkart.filpkart.TC002SelectProduct">
+        <methods>
+          <include name="launch"/>
+          <include name="beforeMethod"/>
+          <include name="VerifyWithInvalidProduct"/>
+          <include name="quit"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.org.flipkart.filpkart.TC002SelectProduct -->
+      <class name="com.org.flipkart.filpkart.TC001SelectProduct">
+        <methods>
+          <include name="launch"/>
+          <include name="beforeMethod"/>
+          <include name="quit"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.org.flipkart.filpkart.TC001SelectProduct -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

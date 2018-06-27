@@ -1,0 +1,21 @@
+2018-06-26 12:17:51 INFO  TestBase:14 - Started select Category Type
+2018-06-26 12:17:52 INFO  SelectSubCategory:39 - Close Login Popup
+2018-06-26 12:21:38 INFO  TestBase:17 - Finshed select Category Type
+2018-06-26 12:21:38 INFO  TestBase:18 - Started Filter Price,brand,size and color
+2018-06-26 12:21:46 INFO  MenCategoryFilters:53 - select minmum price [[FirefoxDriver: firefox on ANY (5dbbddd6-d420-45ad-8f41-731e7c0a3d06)] -> xpath: .//section[2]/div[4]/div[1]/select] 
+2018-06-26 12:21:55 INFO  MenCategoryFilters:62 - select brand Name Peter England  and Object is [[FirefoxDriver: firefox on ANY (5dbbddd6-d420-45ad-8f41-731e7c0a3d06)] -> xpath: .//div[text()='Peter England']/preceding-sibling::div]
+2018-06-26 12:22:03 INFO  MenCategoryFilters:72 - select minmum price M and Object is [[FirefoxDriver: firefox on ANY (5dbbddd6-d420-45ad-8f41-731e7c0a3d06)] -> xpath: .//div[text()='M']/preceding-sibling::div]
+2018-06-26 12:22:10 INFO  MenCategoryFilters:82 - select minmum price Blue and Object is [[FirefoxDriver: firefox on ANY (5dbbddd6-d420-45ad-8f41-731e7c0a3d06)] -> xpath: .//div[text()='Blue']/../div]
+2018-06-26 12:22:10 INFO  TestBase:24 - Finshed Price,brand,size and color
+2018-06-26 12:22:10 INFO  TestBase:25 - Started select product Name
+2018-06-26 12:22:16 INFO  TestBase:15 - Started Verify With Invalid Product
+2018-06-26 12:22:18 INFO  SelectSubCategory:39 - Close Login Popup
+2018-06-26 12:22:58 INFO  TestBase:18 - Finshed select Category Type
+2018-06-26 12:22:58 INFO  TestBase:19 - Started Filter Price,brand,size and color
+2018-06-26 12:23:07 INFO  MenCategoryFilters:53 - select minmum price [[FirefoxDriver: firefox on ANY (329f7846-bc59-4981-a1af-ca913bcade7d)] -> xpath: .//section[2]/div[4]/div[1]/select] 
+2018-06-26 12:23:15 INFO  MenCategoryFilters:62 - select brand Name Peter England  and Object is [[FirefoxDriver: firefox on ANY (329f7846-bc59-4981-a1af-ca913bcade7d)] -> xpath: .//div[text()='Peter England']/preceding-sibling::div]
+2018-06-26 12:23:23 INFO  MenCategoryFilters:72 - select minmum price M and Object is [[FirefoxDriver: firefox on ANY (329f7846-bc59-4981-a1af-ca913bcade7d)] -> xpath: .//div[text()='M']/preceding-sibling::div]
+2018-06-26 12:23:30 INFO  MenCategoryFilters:82 - select minmum price Blue and Object is [[FirefoxDriver: firefox on ANY (329f7846-bc59-4981-a1af-ca913bcade7d)] -> xpath: .//div[text()='Blue']/../div]
+2018-06-26 12:23:30 INFO  TestBase:25 - Finshed Price,brand,size and color
+2018-06-26 12:23:30 INFO  TestBase:26 - Started select product Name
+2018-06-26 12:23:30 INFO  TestBase:27 - Started select product Name
